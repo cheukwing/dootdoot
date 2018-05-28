@@ -1,6 +1,6 @@
 # dootdoot
 my dot files
 
-vaguely monokai themed
+vaguely mo(n|l)okai themed
 
 they r bad
