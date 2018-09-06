@@ -47,4 +47,17 @@ set autoindent
 nmap <F8> :tabn<CR>
 nmap <F7> :tabp<CR>
 
+
+nmap <C-J> <C-W>j
+nmap <C-K> <C-W>k
+nmap <C-H> <C-W>h
+nmap <C-L> <C-W>l
+nmap <C-Up> <C-W><Up>
+nmap <C-Left> <C-W><Left>
+nmap <C-Down> <C-W><Down>
+nmap <C-Right> <C-W><Right>
+
+set wmh=0
+set wmw=0
+
 set mouse=a
