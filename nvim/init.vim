@@ -10,6 +10,7 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'sbdchd/neoformat'
 Plug 'pangloss/vim-javascript'
 Plug 'mxw/vim-jsx'
+Plug 'hdima/python-syntax'
 call plug#end()
 
 colorscheme molokai
@@ -31,6 +32,7 @@ augroup NeoformatAutoFormat
     autocmd BufWritePre *.js,*.jsx Neoformat
 augroup END
 
+let python_highlight_all = 1
 
 set number
 set relativenumber
@@ -61,3 +63,5 @@ set wmh=0
 set wmw=0
 
 set mouse=a
+
+set clipboard=unnamedplus
