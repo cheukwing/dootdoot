@@ -15,6 +15,7 @@ Plug 'lervag/vimtex'
 Plug 'Shougo/neosnippet.vim'
 Plug 'Shougo/neosnippet-snippets'
 Plug 'elixir-lang/vim-elixir'
+Plug 'elmcast/elm-vim'
 call plug#end()
 
 syntax enable
@@ -26,6 +27,8 @@ let g:deoplete#enable_at_startup=1
 
 let g:airline_powerline_fonts=1
 let g:airline_theme='molokai'
+
+let g:elm_format_autosave = 1
 
 let g:neoformat_try_formatprg=1
 augroup NeoformatAutoFormat
@@ -39,6 +42,9 @@ augroup NeoformatAutoFormat
 augroup END
 
 let python_highlight_all = 1
+
+let g:deoplete#sources#go#gocode_binary = '/home/cheukwing/go/bin/gocode'
+let g:deoplete#sources#go#sort_class = ['package', 'func', 'type', 'var', 'const']
 
 " Plugin key-mappings.
 " Note: It must be "imap" and "smap".  It uses <Plug> mappings.
